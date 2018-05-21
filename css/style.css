@@ -1007,15 +1007,37 @@ textarea:focus {
 
 #portfolio .caption p {
 	font-family: 'Raleway', sans-serif;
-	font-weight: 400;
 	text-align: center;
 	color: #fff;
 	position: absolute;
-	font-size: 24px;
+	font-size: 18px;
 	text-transform: capitalize;
 	top: 55%;
 	left: 30%;
+	/*
 	right: 30%;
+	font-weight: 400;
+	*/
+}
+
+.porfolio-text {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	color: #fff;
+	position: absolute;
+	font-size: 18px;
+	text-transform: capitalize;
+	top: 55%;
+	left: 30%;
+	/*
+	right: 30%;
+	font-weight: 400;
+	*/
+	background-color: rgba(0, 0, 0, 0.75);
+}
+
+#portfolio .portfolio-thumbnail .product:hover > .porfolio-text{
+	display: none;
 }
 
 /*Media*/
