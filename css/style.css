@@ -983,7 +983,7 @@ textarea:focus {
 	transition: opacity linear .3s;
 }
 
-#portfolio .portfolio-thumbnail .item:hover > .caption {
+#portfolio .portfolio-thumbnail .product:hover > .caption {
 	opacity: 1;
 }
 
@@ -1011,7 +1011,7 @@ textarea:focus {
 	text-align: center;
 	color: #fff;
 	position: absolute;
-	font-size: 17px;
+	font-size: 24px;
 	text-transform: capitalize;
 	top: 55%;
 	left: 30%;
