@@ -269,7 +269,7 @@ textarea:focus {
 /*Slider Caption*/
 #slider .caption {
 	position: absolute;
-	width: 600px;
+	width: auto;
 	top: 50%;
 }
 
